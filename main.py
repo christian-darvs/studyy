@@ -98,7 +98,16 @@ def comma_code(arr):
     return arr
 
 def character_picture_grid():
-    pass
+    grid = [['.', '.', '.', '.', '.', '.'],
+ ['.', 'O', 'O', '.', '.', '.'],
+ ['O', 'O', 'O', 'O', '.', '.'],
+ ['O', 'O', 'O', 'O', 'O', '.'],
+ ['.', 'O', 'O', 'O', 'O', 'O'],
+ ['O', 'O', 'O', 'O', 'O', '.'],
+ ['O', 'O', 'O', 'O', '.', '.'],
+ ['.', 'O', 'O', '.', '.', '.'],
+ ['.', '.', '.', '.', '.', '.']]
+    print(grid)
 
 def exercises():
     # Comma Code
@@ -110,6 +119,7 @@ def exercises():
     print(comma_code(brands))
     print(comma_code(currency))
     '''
+    character_picture_grid()
 
 def practice_questions():
     print('1. What is []?')
@@ -159,9 +169,9 @@ def main():
     # tuple_implementation()
     # convert_collections()
     # references()
-    # exercises()
+    exercises()
     # copy_deep()
-    practice_questions()
+    # practice_questions()
     print()
 
 if __name__ == '__main__':
